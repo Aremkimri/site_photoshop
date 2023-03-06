@@ -1,0 +1,388 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100% ;
+    height: max-content;
+    background: url(https://wallpapers.com/images/hd/glowing-anime-room-lxf6u2gthonupm8m.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    background-color: rgba(255, 255, 255, 0.596);
+    font-size: 1.2rem;
+    justify-content: space-between;
+    padding: 25px 0px 25px 750px;
+    border-bottom: 1px solid cornflowerblue;
+    margin: 0 auto;
+}
+.logo{
+    font-size: 1em;
+    color: rgb(0, 191, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+.A{
+    font-size: 1.5em;
+}
+.social_network{
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.596);;
+    font-size: 1.2rem;
+    padding: 280px 35px 0px 15px;
+    border-right: 1px solid cornflowerblue;
+}
+.header_cont{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    background-color: rgba(26, 70, 109, 0.355);
+}
+.header_title{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.title{
+    display: flex;
+    font-size: 2em;
+    margin-left: 1em;
+    margin-top: 1em;
+    padding: 80px 200px 80px 200px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(43, 131, 226);
+}
+.btn{
+    background-color: rgba(132, 89, 156, 0.319);
+    padding: 1em 2em;
+    border-radius: 100px;
+    border-color:transparent ;
+    color: #fff;
+    width: 20rem;
+    margin-top: 2rem;
+}
+.btns:hover{
+    background-image: linear-gradient(44deg, rgba(193, 42, 207, 0.315),rgba(179, 39, 197, 0.37), rgba(110, 13, 123, 0.43)) ;
+    border: 3px solid cornflowerblue;
+}
+.btns:active{
+    background-image: linear-gradient(44deg, rgba(148, 12, 161, 0.483),rgba(67, 8, 127, 0.514), rgba(27, 9, 185, 0.514)) ;
+    border: 3px solid cornflowerblue;
+}
+.data{
+    display: flex;
+    padding:1em 20em ;
+}
+.data_cont{
+    width: 15em;
+    height: 15em;
+    background-color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 2em;
+}
+.data_title{
+    font-size: 2em;
+}
+.two{
+    width: 19em;
+    height: 18em;
+    background-color: rgba(14, 68, 116, 0.667);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    background-color: #2a627153;
+    background-size: cover;
+    margin: 0 auto;
+}
+.room{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    text-align: center;
+    align-items: center;
+    margin:0 auto;
+    padding: 6em 5em;
+}
+.separation{
+    width: 5rem;
+    height: 0.3rem;
+    background-color: blueviolet;
+}
+.room_cont{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    text-align: center;
+    align-items: center;
+    gap: 1em; 
+    margin:0 auto;
+}
+.room_one{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: max-content;
+    text-align: center;
+    align-items: center;
+    gap: 1em;
+   
+}
+.room_title{
+    background: url(https://i.pinimg.com/originals/83/21/aa/8321aa7615694700b30be05e118516c4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 28em;
+    height: 15em;
+    padding: 10em 0em;
+    margin:0 auto;
+    margin-top: 2em ;
+    color: rgb(0, 0, 0);
+}
+.explorer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: max-content;
+    text-align: center;
+    align-items: center;
+    padding: 6em 5em;
+    margin: 0 auto;
+}
+.explorer_art{
+    background: url(https://i.pinimg.com/originals/d6/5a/c2/d65ac25847667c1c0a19fccc0f12f792.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:60em ;
+    height: 40em;
+}
+.explorer_cont{
+    width: 40em;
+    height: 20em;
+    background-color: aliceblue;
+    margin-top: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-left: 45em;
+    border-radius: 30px;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    text-align: center;
+    align-items: center;
+    padding: 6em 15em;
+    margin:0 auto;
+}
+.service_cont{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    text-align: center;
+    align-items: center;
+    gap: 1em; 
+    
+    padding: 6em 5em;
+    margin:0 auto;
+}
+.service_sec{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: max-content;
+    text-align: center;
+    align-items: center;
+    gap: 8em;
+}
+.service_bx{
+    font-size: 6em;
+    color: rgb(197, 108, 0);
+}
+.find{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: max-content;
+    text-align: center;
+    align-items: center;
+    margin:0 auto;
+    padding: 6em 5em;
+}
+.find_art{
+    background: url(https://i.pinimg.com/originals/d6/5a/c2/d65ac25847667c1c0a19fccc0f12f792.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:60em ;
+    height: 40em;
+}
+.find_cont{
+    width: 40em;
+    height: 40em;
+    background-color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 6em 5em;
+}
+.Guest{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    text-align: center;
+    align-items: center;
+    margin:0 auto;
+    padding: 6em 5em;
+}
+.guest_cont{
+    width: 40em;
+    height: 25em;
+    background-color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2em 5em;
+    margin-top: 2em;
+}
+.guest_spical{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.guest_art{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC2-ZaXZv8CAfwp_KGdI1IkSKFAY344JfzHQ&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    width: 8em;
+    height: 8em;
+}
+.keep{
+    display: grid;
+    grid-template-columns: repeat(1,100%);
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(44deg, rgba(148, 12, 161, 0.483),rgba(67, 8, 127, 0.514), rgba(27, 9, 185, 0.514)) ;
+    border: 3px solid cornflowerblue;
+}
+
+.clam{
+    font-size: 4rem;
+    text-align: center;
+    align-items: center;
+}
+
+.pley{
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    border-radius: 90%;
+    margin:0 auto ;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    text-align: center;
+    align-items: center;
+    margin:0 auto;
+    padding: 6em 5em;
+}
+
+.Latest{
+    font-size: 3rem;
+}
+
+.sixs1{
+    display: grid;
+    margin-top: 100px;
+    justify-content: center;
+    grid-template-columns: repeat(3 , 300px);
+    grid-template-rows: repeat(2 , 200px);
+    gap: 20px;
+}
+
+.s2{
+    width: 300px;
+    height: 200px;
+    background: url(https://w0.peakpx.com/wallpaper/40/844/HD-wallpaper-anime-nostalgic-room-clocks-plants-light-scenery-anime.jpg);
+    background-size: cover;
+    border-radius: 10%;
+}
+footer{
+    width: 100%;
+    height: max-content;
+    background-color: #1a1c1df9;
+    margin: 0 auto;
+}
+.footer_naw{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    background-color: rgb(23, 22, 22);
+    font-size: 1.2rem;
+    justify-content: space-between;
+    padding: 40px 300px 40px 200px;
+    border-bottom: 1px solid cornflowerblue;
+    color: aliceblue;
+}
+.footer_content{
+    display: flex;
+    justify-content: flex-start;
+    width: 1500px;
+    height: max-content;
+    padding: 10rem 9rem;
+    gap: 1rem;
+    margin: 0 auto;
+}
+.footer_tytle >p{
+    margin-top: 0.5rem;
+}
+.footer_tytle >a{
+    margin-top: 0.5rem;
+}
+.footer_tytle{
+    display: flex;
+    flex-direction: column;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+.tytle_two{
+    width: 20rem ;
+}
+.tytle_one{
+    width: 20rem ;
+}
+.input{
+    margin-top: 1rem;
+    height: 2rem;
+}
