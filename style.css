@@ -16,28 +16,33 @@ header{
     background: url(https://wallpapers.com/images/hd/glowing-anime-room-lxf6u2gthonupm8m.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     margin: 0 auto;
 }
 nav{
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
     height: max-content;
     background-color: rgba(255, 255, 255, 0.596);
-    font-size: 1.2rem;
-    justify-content: space-between;
-    padding: 25px 0px 25px 750px;
+    padding: 25px 0px 25px 0px;
     border-bottom: 1px solid cornflowerblue;
-    margin: 0 auto;
 }
 .logo{
-    font-size: 1em;
-    color: rgb(0, 191, 255);
+    font-size: 1.5em;
+    color: rgb(17, 0, 255);
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
 }
 .A{
     font-size: 1.5em;
+}
+.header_cont{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    background-color: rgba(26, 70, 109, 0.355);
 }
 .social_network{
     display: flex;
@@ -46,14 +51,10 @@ nav{
     height: 100vh;
     background-color: rgba(255, 255, 255, 0.596);;
     font-size: 1.2rem;
-    padding: 280px 35px 0px 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 15px 0px 15px;
     border-right: 1px solid cornflowerblue;
-}
-.header_cont{
-    display: flex;
-    width: 100%;
-    height: max-content;
-    background-color: rgba(26, 70, 109, 0.355);
 }
 .header_title{
     display: flex;
@@ -66,11 +67,11 @@ nav{
 .title{
     display: flex;
     font-size: 2em;
-    margin-left: 1em;
-    margin-top: 1em;
+    align-items: center;
+    justify-content: center;
     padding: 80px 200px 80px 200px;
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(43, 131, 226);
+    color: rgb(7, 16, 81);
 }
 .btn{
     background-color: rgba(132, 89, 156, 0.319);
@@ -150,7 +151,6 @@ main{
     text-align: center;
     align-items: center;
     gap: 1em;
-   
 }
 .room_title{
     background: url(https://i.pinimg.com/originals/83/21/aa/8321aa7615694700b30be05e118516c4.jpg);
@@ -166,7 +166,7 @@ main{
 .explorer{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 1500px;
     height: max-content;
     text-align: center;
     align-items: center;
@@ -200,18 +200,6 @@ main{
     padding: 6em 15em;
     margin:0 auto;
 }
-.service_cont{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: max-content;
-    text-align: center;
-    align-items: center;
-    gap: 1em; 
-    
-    padding: 6em 5em;
-    margin:0 auto;
-}
 .service_sec{
     display: flex;
     flex-direction: row;
@@ -228,7 +216,7 @@ main{
 .find{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 1500px;
     height: max-content;
     text-align: center;
     align-items: center;
@@ -375,14 +363,673 @@ footer{
     font-style: oblique;
     color: rgb(255, 255, 255);
     margin: 0 auto;
-}
-.tytle_two{
-    width: 20rem ;
-}
-.tytle_one{
     width: 20rem ;
 }
 .input{
     margin-top: 1rem;
     height: 2rem;
+}
+@media screen and (max-width: 1400px){
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: max-content;
+        background-color: rgba(255, 255, 255, 0.596);
+        padding: 9px 0px 9px 0px;
+        border-bottom: 1px solid cornflowerblue;
+    }
+    .social_network{
+        display: flex;
+        flex-direction: column;
+        width: 60px;
+        height: 100vh;
+        background-color: rgba(255, 255, 255, 0.596);;
+        font-size: 1.2rem;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 5px 0px 5px;
+        border-right: 1px solid cornflowerblue;
+    }
+    .title{
+        display: flex;
+        font-size: 1.2em;
+        align-items: center;
+        justify-content: center;
+        padding: 80px 260px 80px 260px;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(7, 16, 81);
+    }
+    .data_cont{
+        width: 140px;
+        height: 120px;
+        background-color: aliceblue;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 4px;
+    }
+    .data_title{
+        font-size: 1.2em;
+    }
+    .two{
+        width: 140px;
+        height: 120px;
+        background-color: rgba(14, 68, 116, 0.667);
+    }
+    .room_title{
+        background: url(https://i.pinimg.com/originals/83/21/aa/8321aa7615694700b30be05e118516c4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 17em;
+        height: 10em;
+        padding: 10em 0em;
+        margin:0 auto;
+        margin-top: 1em ;
+        color: rgb(0, 0, 0);
+    }
+    .btnq{
+        background-color: rgba(132, 89, 156, 0.319);
+        padding: 1em 2em;
+        border-radius: 100px;
+        border-color:transparent ;
+        color: #fff;
+        width: 9rem;
+        margin-top: 2rem;
+    }
+    .explorer{
+        display: flex;
+        flex-direction: row;
+        width: 800px;
+        height: max-content;
+        text-align: center;
+        align-items: center;
+        padding: 4em 3em;
+        margin: 0 auto;
+    }
+    .explorer_art{
+        background: url(https://i.pinimg.com/originals/d6/5a/c2/d65ac25847667c1c0a19fccc0f12f792.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:60em ;
+        height: 40em;
+    }
+    .explorer_cont{
+        width: 20em;
+        height: 30em;
+        background-color: aliceblue;
+        margin-top: 4em;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        position: absolute;
+        margin-left: 30em;
+        border-radius: 30px;
+    }
+    .service{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+        padding: 6em 15em;
+        margin:0 auto;
+        gap: 2rem;
+    }
+    .service_sec{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+        gap: 3em;
+    }
+    .service_title{
+        display: flex;
+        width: 600px;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        border: 3px solid cornflowerblue;
+    }
+    .find{
+        display: flex;
+        flex-direction: row;
+        width: 1000px;
+        height: max-content;
+        text-align: center;
+        align-items: center;
+        margin:0 auto;
+        padding: 4em 3em;
+    }
+    .find_art{
+        background: url(https://i.pinimg.com/originals/d6/5a/c2/d65ac25847667c1c0a19fccc0f12f792.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width:80em ;
+        height: 40em;
+    }
+    .find_cont{
+        width:60em ;
+        height: 40em;
+        background-color: aliceblue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 4em 2em;
+    }
+    .footer_content{
+        display: flex;
+        justify-content: flex-start;
+        width: 1000px;
+        height: max-content;
+        padding: 10rem 9rem;
+        gap: 1rem;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 900px){
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: max-content;
+        background-color: rgba(255, 255, 255, 0.596);
+        padding: 2px 0px 2px 0px;
+        border-bottom: 1px solid cornflowerblue;
+    }
+    .social_network{
+        display: flex;
+        flex-direction: column;
+        width: 80px;
+        height: 100vh;
+        background-color: rgba(255, 255, 255, 0.596);;
+        font-size: 1rem;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 5px 0px 5px;
+        border-right: 1px solid cornflowerblue;
+    }
+    .title{
+        display: flex;
+        font-size: 16px;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 200px 30px 200px;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(7, 16, 81);
+    }
+    .btnqs{
+        background-color: rgba(132, 89, 156, 0.319);
+        padding: 0.6em 2em;
+        border-radius: 100px;
+        border-color:transparent ;
+        color: #fff;
+        width: 10rem;
+        margin-top: 2rem;
+    }
+    .data_cont{
+        width: 120px;
+        height: 110px;
+        background-color: aliceblue;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 4px;
+    }
+    .data_title{
+        font-size: 1em;
+    }
+    .two{
+        width: 145px;
+        height: 110px;
+        background-color: rgba(14, 68, 116, 0.667);
+    }
+    .room_title{
+        background: url(https://i.pinimg.com/originals/83/21/aa/8321aa7615694700b30be05e118516c4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 28em;
+        height: 15em;
+        padding: 10em 0em;
+        margin:0 auto;
+        margin-top: 2em ;
+        color: rgb(0, 0, 0);
+    }
+    .btnq{
+        background-color: rgba(132, 89, 156, 0.319);
+        padding: 1em 2em;
+        border-radius: 100px;
+        border-color:transparent ;
+        color: #fff;
+        width: 9rem;
+        margin-top: 2rem;
+    }
+    .explorer{
+        display: flex;
+        flex-direction: row;
+        width: 700px;
+        height: max-content;
+        text-align: center;
+        align-items: center;
+        padding: 4em 3em;
+        margin: 0 auto;
+    }
+    .explorer_art{
+        background: url(https://i.pinimg.com/originals/d6/5a/c2/d65ac25847667c1c0a19fccc0f12f792.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 40em ;
+        height: 40em;
+        margin: 0 auto;
+    }
+    .explorer_cont{
+        width: 30em;
+        height: 20em;
+        background-color: aliceblue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        position: absolute;
+        margin-top: 30em;
+        border-radius: 30px;
+        margin-left: 4rem;
+    }
+    .service{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+        padding: 6em 15em;
+        margin:0 auto;
+        gap: 2rem;
+    }
+    .service_sec{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+        gap: 3em;
+    }
+    .service_title{
+        display: flex;
+        width: 600px;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        border: 3px solid cornflowerblue;
+    }
+    .find{
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+        height: max-content;
+        text-align: center;
+        align-items: center;
+        margin:0 auto;
+        padding: 4em 3em;
+    }
+    .find_art{
+        background: url(https://i.pinimg.com/originals/d6/5a/c2/d65ac25847667c1c0a19fccc0f12f792.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width:35em ;
+        height: 20em;
+        margin:0 auto;
+    }
+    .find_cont{
+        width:35em ;
+        height: 25em;
+        background-color: aliceblue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 4em 2em;
+    }
+    .keep{
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        align-items: center;
+        background-image: linear-gradient(44deg, rgba(148, 12, 161, 0.483),rgba(67, 8, 127, 0.514), rgba(27, 9, 185, 0.514)) ;
+        border: 3px solid cornflowerblue;
+        padding: 4em 2em;
+    }
+    
+    .clam{
+        font-size: 3rem;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .pley{
+        background-color: aqua;
+        width: 120px;
+        height: 120px;
+        border-radius: 90%;
+        margin:0 auto ;
+    }
+    
+    .news{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+        text-align: center;
+        align-items: center;
+        margin:0 auto;
+        padding: 6em 5em;
+    }
+    
+    .Latest{
+        font-size: 3rem;
+    }
+    
+    .sixs1{
+        display: grid;
+        margin-top: 100px;
+        justify-content: center;
+        grid-template-columns: repeat(2 , 300px);
+        grid-template-rows: repeat(4 , 200px);
+        gap: 5px;
+        
+    }
+    
+    .s2{
+        width: 260px;
+        height: 200px;
+        background: url(https://w0.peakpx.com/wallpaper/40/844/HD-wallpaper-anime-nostalgic-room-clocks-plants-light-scenery-anime.jpg);
+        background-size: cover;
+        border-radius: 10%;
+        margin:0 auto;
+    }
+    .footer_naw{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: max-content;
+        background-color: rgb(23, 22, 22);
+        font-size: 1.2rem;
+        justify-content: space-between;
+        padding: 40px 50px 40px 50px;
+        border-bottom: 1px solid cornflowerblue;
+        color: aliceblue;
+    }
+    .footer_content{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 800px;
+        height: max-content;
+        padding: 10rem 9rem;
+        gap: 1rem;
+        margin: 0 auto;
+    }
+    
+}
+@media screen and (max-width: 700px){
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: max-content;
+        background-color: rgba(255, 255, 255, 0.596);
+        padding: 2px 0px 2px 0px;
+        border-bottom: 1px solid cornflowerblue;
+        font-size: 0.6rem;
+    }
+    .social_network{
+        display: flex;
+        flex-direction: column;
+        width: 80px;
+        height: 115vh;
+        background-color: rgba(255, 255, 255, 0.596);;
+        font-size: 0.6rem;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 5px 0px 5px;
+        border-right: 1px solid cornflowerblue;
+    }
+    .title{
+        display: flex;
+        font-size: 10px;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 100px 30px 100px;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(7, 16, 81);
+    }
+    .btnqs{
+        background-color: rgba(132, 89, 156, 0.319);
+        padding: 0.6em 2em;
+        border-radius: 100px;
+        border-color:transparent ;
+        color: #fff;
+        width: 10rem;
+        margin-top: 2rem;
+        font-size: 0.6rem;
+    }
+    .data_cont{
+        width: 80px;
+        height: 90px;
+        background-color: aliceblue;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 4px;
+    }
+    .data_title{
+        font-size: 0.9em;
+    }
+    .two{
+        width: 145px;
+        height: 90px;
+        background-color: rgba(14, 68, 116, 0.667);
+        font-size: 0.7rem;
+    }
+    .room{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+        text-align: center;
+        align-items: center;
+        margin:0 auto;
+        padding: 2em 1em;
+    }
+    .room_title{
+        background: url(https://i.pinimg.com/originals/83/21/aa/8321aa7615694700b30be05e118516c4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 15em;
+        height: 15em;
+        padding: 5em 0em;
+        margin:0 auto;
+        margin-top: 2em ;
+        color: rgb(0, 0, 0);
+    }
+    .btnq{
+        background-color: rgba(132, 89, 156, 0.319);
+        padding: 1em 2em;
+        border-radius: 100px;
+        border-color:transparent ;
+        color: #fff;
+        width: 9rem;
+        margin-top: 2rem;
+    }
+    .explorer{
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+        height: max-content;
+        text-align: center;
+        align-items: center;
+        padding: 4em 3em;
+        margin: 0 auto;
+    }
+    .explorer_art{
+        background: url(https://i.pinimg.com/originals/d6/5a/c2/d65ac25847667c1c0a19fccc0f12f792.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 30em ;
+        height: 40em;
+        margin: 0 auto;
+    }
+    .explorer_cont{
+        width: 20em;
+        height: 30em;
+        background-color: aliceblue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        position: absolute;
+        margin-top: 30em;
+        border-radius: 30px;
+        margin-left: 2rem;
+    }
+    .guest_cont{
+        width: 40em;
+        height: 25em;
+        background-color: aliceblue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 2em 5em;
+        margin-top: 2em;
+        font-size: 0.7rem;
+    }
+    .guest_spical{
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    .guest_art{
+        background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC2-ZaXZv8CAfwp_KGdI1IkSKFAY344JfzHQ&usqp=CAU);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 100px;
+        width: 4em;
+        height: 4em;
+    }
+    .service{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+        padding: 6em 15em;
+        margin:0 auto;
+        gap: 2rem;
+    }
+    .service_sec{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+        gap: 3em;
+    }
+    .service_title{
+        display: flex;
+        width: 400px;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        border: 3px solid cornflowerblue;
+    }
+    .find{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: max-content;
+        text-align: center;
+        align-items: center;
+        margin:0 auto;
+        padding: 4em 3em;
+    }
+    .find_art{
+        background: url(https://i.pinimg.com/originals/d6/5a/c2/d65ac25847667c1c0a19fccc0f12f792.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width:20em ;
+        height: 20em;
+        margin:0 auto;
+    }
+    .find_cont{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width:20em ;
+        height: 43em;
+        background-color: aliceblue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 4em 2em;
+        margin: 0 auto;
+    }
+    .keep{
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        width: 100%;
+        height: 300px;
+        text-align: center;
+        align-items: center;
+        background-image: linear-gradient(44deg, rgba(148, 12, 161, 0.483),rgba(67, 8, 127, 0.514), rgba(27, 9, 185, 0.514)) ;
+        border: 3px solid cornflowerblue;
+        padding: 4em 2em;
+    }
+    
+    .clam{
+        font-size: 2rem;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .pley{
+        background-color: aqua;
+        width: 90px;
+        height: 90px;
+        border-radius: 90%;
+        margin:0 auto ;
+    }
+    
+    .news{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+        text-align: center;
+        align-items: center;
+        margin:0 auto;
+        padding: 6em 5em;
+    }
+    
+    .Latest{
+        font-size: 3rem;
+    }
+    
+    .sixs1{
+        display: grid;
+        margin-top: 100px;
+        justify-content: center;
+        grid-template-columns: repeat(2 , 220px);
+        grid-template-rows: repeat(4 , 200px);
+    }
+    .s2{
+        width: 200px;
+        height: 160px;
+        background: url(https://w0.peakpx.com/wallpaper/40/844/HD-wallpaper-anime-nostalgic-room-clocks-plants-light-scenery-anime.jpg);
+        background-size: cover;
+        border-radius: 10%;
+        margin:0 auto;
+    }
+    .footer_naw{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: max-content;
+        background-color: rgb(23, 22, 22);
+        font-size: 1.2rem;
+        justify-content: space-between;
+        padding: 20px 50px 20px 50px;
+        border-bottom: 1px solid cornflowerblue;
+        color: aliceblue;
+    }
+    .footer_content{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 600px;
+        height: max-content;
+        padding: 10rem 9rem;
+        gap: 1rem;
+        margin: 0 auto;
+    }
 }
